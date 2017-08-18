@@ -1,0 +1,7 @@
+return {
+	versionurls = {
+		"file:///d:/update",
+		"file:///e:/update",
+	},
+
+}

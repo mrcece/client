@@ -1,0 +1,12 @@
+<module name="msg.gs">
+	<include name="../../server/msg/net.xml"/>
+	<include name="../../server/msg/game.xml"/>
+
+	<ref name="gs_client">
+		<module name="msg.gs"/>
+	</ref>
+	<ref name="client">
+		<ref name="gate_client"/>
+		<ref name="gs_client"/>
+	</ref>
+</module>
